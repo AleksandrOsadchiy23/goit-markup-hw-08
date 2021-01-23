@@ -1,0 +1,25 @@
+// UTILS
+@import "./utils/visually-hidden";
+@import "./utils/variables";
+
+// BASE
+@import "./base/common";
+@import "./base/container";
+
+// LAYOUT
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/principles";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+
+
+
+
+// COMPONENTS
+@import "./components/modal-form-studio";
+
+
