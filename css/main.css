@@ -391,6 +391,7 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
     border-top: 1px solid #ECECEC;
+    z-index: 1;
   }
 }
 
@@ -785,8 +786,8 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-network-link:hover .team-list-item .team-network-icon,
-.team-network-link:focus .team-list-item .team-network-icon {
+.team-network-link:hover .team-network-icon,
+.team-network-link:focus .team-network-icon {
   fill: #ffffff;
 }
 
@@ -899,6 +900,7 @@ body {
   .box {
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
   }
 }
 

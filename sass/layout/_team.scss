@@ -130,11 +130,11 @@
     height: 20px;
     fill: #afb1b8;
     transition: 250ms $time-function;
-
-    .team-network-link:hover &,
-    .team-network-link:focus & {
-      fill: #ffffff;
-    }
+    
   }
   }
   
+  .team-network-link:hover .team-network-icon,
+    .team-network-link:focus .team-network-icon {
+      fill: #ffffff;
+    }
